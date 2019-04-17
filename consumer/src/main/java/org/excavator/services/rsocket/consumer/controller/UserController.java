@@ -1,7 +1,7 @@
 package org.excavator.services.rsocket.consumer.controller;
 
-import org.excavator.services.rsocket.consumer.UserRequest;
-import org.excavator.services.rsocket.consumer.UserResponse;
+import org.excavator.services.rsocket.consumer.domain.UserRequest;
+import org.excavator.services.rsocket.consumer.domain.UserResponse;
 import org.reactivestreams.Publisher;
 import org.springframework.http.MediaType;
 import org.springframework.messaging.rsocket.RSocketRequester;
